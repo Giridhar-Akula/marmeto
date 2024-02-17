@@ -1,0 +1,211 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background: #ffffff;
+    color: #020202;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+}
+.logosetting{
+    height: 60px;
+    width: 150px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.buttons {
+    float: right;
+}
+
+button {
+    background: #124C5F;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sumbmitbutton{
+    background-color: #124C5F;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px;
+}
+#registerBtn{
+    color: #124C5F;
+    background-color: #75fcec;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+main {
+    padding: 50px 0;
+}
+
+/* .containerHome{
+    background-image: url("./background.jpg");
+    background-size: contain;
+    padding: 30px;
+} */
+
+.content {
+    float: left;
+    width: 60%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.images {
+    float: right;
+    width: 40%;
+    position: relative;
+}
+#dogImage1{
+    margin-left: 130px;
+}
+
+.images img {
+    position: relative;
+    top: 0;
+    right: 0;
+    max-width: 100%;
+    z-index: 1;
+}
+
+#serviceCategory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.seviceheading{
+    margin-left: 200px;
+}
+
+.service-item {
+    width: 20%; /* Adjust as needed */
+    text-align: center;
+    margin: 20px; /* Adjust spacing */
+    border-color: #124C5F;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 40px;
+    padding: 15px;
+}
+
+.service-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    /* background-color: #ccc; Placeholder background color */
+    display: inline-block;
+    margin-bottom: 10px; /* Adjust spacing */
+}
+
+.service-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.service-item h2 {
+    font-size: 18px;
+}
+
+.service-item p {
+    font-size: 14px;
+}
+/* Global styles as described in the previous responses */
+
+/* Styles for About Us section */
+#aboutUs {
+    background-color: #f4f4f4; /* Background color for the section */
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image {
+    width: 50%; /* Adjust width as needed */
+    position: relative;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-text {
+    width: 45%; /* Adjust width as needed */
+}
+
+.about-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Adjust spacing */
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px; /* Adjust spacing */
+}
+
+.about-text button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Continue with other section styles */
+
+
